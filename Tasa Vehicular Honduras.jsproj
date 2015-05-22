@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Android">
+      <Configuration>Debug</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|iOS">
+      <Configuration>Debug</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows-AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows-AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows-x64">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows-x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows-x86">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows-x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows-ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows-ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows Phone 8">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows Phone 8</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Windows Phone (Universal)">
+      <Configuration>Debug</Configuration>
+      <Platform>Windows Phone (Universal)</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Android">
+      <Configuration>Release</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|iOS">
+      <Configuration>Release</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows-AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>Windows-AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows-x64">
+      <Configuration>Release</Configuration>
+      <Platform>Windows-x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows-x86">
+      <Configuration>Release</Configuration>
+      <Platform>Windows-x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows-ARM">
+      <Configuration>Release</Configuration>
+      <Platform>Windows-ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows Phone 8">
+      <Configuration>Release</Configuration>
+      <Platform>Windows Phone 8</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Windows Phone (Universal)">
+      <Configuration>Release</Configuration>
+      <Platform>Windows Phone (Universal)</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Android">
+      <Configuration>Distribution</Configuration>
+      <Platform>Android</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|iOS">
+      <Configuration>Distribution</Configuration>
+      <Platform>iOS</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows-AnyCPU">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows-AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows-x64">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows-x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows-x86">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows-x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows-ARM">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows-ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows Phone 8">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows Phone 8</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Distribution|Windows Phone (Universal)">
+      <Configuration>Distribution</Configuration>
+      <Platform>Windows Phone (Universal)</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>c7cee34b-a529-44bb-9f43-3204474eb362</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DefaultReferenceGroup>Implicit (Multi-Device Apps)</DefaultReferenceGroup>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0'">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="config.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="css\jquery.mobile.structure-1.4.5.min.css" />
+    <Content Include="icon.png" />
+    <Content Include="Icon.psd" />
+    <Content Include="images\loading_100.gif" />
+    <Content Include="index.html" />
+    <Content Include="res\icon\amazon\Icon-Amazon.png" />
+    <Content Include="res\icon\android\Icon-hdpi.png" />
+    <Content Include="res\icon\android\Icon-ldpi.png" />
+    <Content Include="res\icon\android\Icon-mdpi.png" />
+    <Content Include="res\icon\android\Icon-xhdpi.png" />
+    <Content Include="res\icon\android\Icon-xxhdpi.png" />
+    <Content Include="res\icon\android\Icon-xxxhdpi.png" />
+    <Content Include="res\icon\ios\Icon%402x.png" />
+    <Content Include="res\icon\ios\Icon-120.png" />
+    <Content Include="res\icon\ios\Icon-152.png" />
+    <Content Include="res\icon\ios\icon-16.png" />
+    <Content Include="res\icon\ios\icon-24.png" />
+    <Content Include="res\icon\ios\icon-32.png" />
+    <Content Include="res\icon\ios\Icon-40%402x.png" />
+    <Content Include="res\icon\ios\icon-40.png" />
+    <Content Include="res\icon\ios\icon-60%402x.png" />
+    <Content Include="res\icon\ios\Icon-60%403x.png" />
+    <Content Include="res\icon\ios\icon-60.png" />
+    <Content Include="res\icon\ios\icon-64.png" />
+    <Content Include="res\icon\ios\Icon-72%402x.png" />
+    <Content Include="res\icon\ios\icon-72.png" />
+    <Content Include="res\icon\ios\Icon-76%402x.png" />
+    <Content Include="res\icon\ios\icon-76.png" />
+    <Content Include="res\icon\ios\icon-Small%402x.png" />
+    <Content Include="res\icon\ios\icon-Small%403x.png" />
+    <Content Include="res\icon\ios\icon-Small-40%402x.png" />
+    <Content Include="res\icon\ios\Icon-Small-40%403x.png" />
+    <Content Include="res\icon\ios\icon-Small-40.png" />
+    <Content Include="res\icon\ios\icon-Small-50%402x.png" />
+    <Content Include="res\icon\ios\icon-Small-50.png" />
+    <Content Include="res\icon\ios\icon-Small.png" />
+    <Content Include="res\icon\ios\icon.png" />
+    <Content Include="res\icon\ios\iTunesArtwork%402x.png" />
+    <Content Include="res\icon\ios\iTunesArtwork.png" />
+    <Content Include="res\icon\upload.png" />
+    <Content Include="scripts\index.js" />
+    <Content Include="css\index.css" />
+    <Content Include="scripts\jquery-1.11.1.min.js" />
+    <Content Include="scripts\jquery.mobile-1.4.5.min.js" />
+    <Content Include="scripts\jquery.mobile-1.4.5.min.map" />
+    <Content Include="scripts\platformOverrides.js" />
+    <Content Include="themes\Default.css" />
+    <Content Include="themes\Default.min.css" />
+    <Content Include="themes\images\ajax-loader.gif" />
+    <Content Include="themes\images\icons-png\action-black.png" />
+    <Content Include="themes\images\icons-png\action-white.png" />
+    <Content Include="themes\images\icons-png\alert-black.png" />
+    <Content Include="themes\images\icons-png\alert-white.png" />
+    <Content Include="themes\images\icons-png\arrow-d-black.png" />
+    <Content Include="themes\images\icons-png\arrow-d-l-black.png" />
+    <Content Include="themes\images\icons-png\arrow-d-l-white.png" />
+    <Content Include="themes\images\icons-png\arrow-d-r-black.png" />
+    <Content Include="themes\images\icons-png\arrow-d-r-white.png" />
+    <Content Include="themes\images\icons-png\arrow-d-white.png" />
+    <Content Include="themes\images\icons-png\arrow-l-black.png" />
+    <Content Include="themes\images\icons-png\arrow-l-white.png" />
+    <Content Include="themes\images\icons-png\arrow-r-black.png" />
+    <Content Include="themes\images\icons-png\arrow-r-white.png" />
+    <Content Include="themes\images\icons-png\arrow-u-black.png" />
+    <Content Include="themes\images\icons-png\arrow-u-l-black.png" />
+    <Content Include="themes\images\icons-png\arrow-u-l-white.png" />
+    <Content Include="themes\images\icons-png\arrow-u-r-black.png" />
+    <Content Include="themes\images\icons-png\arrow-u-r-white.png" />
+    <Content Include="themes\images\icons-png\arrow-u-white.png" />
+    <Content Include="themes\images\icons-png\audio-black.png" />
+    <Content Include="themes\images\icons-png\audio-white.png" />
+    <Content Include="themes\images\icons-png\back-black.png" />
+    <Content Include="themes\images\icons-png\back-white.png" />
+    <Content Include="themes\images\icons-png\bars-black.png" />
+    <Content Include="themes\images\icons-png\bars-white.png" />
+    <Content Include="themes\images\icons-png\bullets-black.png" />
+    <Content Include="themes\images\icons-png\bullets-white.png" />
+    <Content Include="themes\images\icons-png\calendar-black.png" />
+    <Content Include="themes\images\icons-png\calendar-white.png" />
+    <Content Include="themes\images\icons-png\camera-black.png" />
+    <Content Include="themes\images\icons-png\camera-white.png" />
+    <Content Include="themes\images\icons-png\carat-d-black.png" />
+    <Content Include="themes\images\icons-png\carat-d-white.png" />
+    <Content Include="themes\images\icons-png\carat-l-black.png" />
+    <Content Include="themes\images\icons-png\carat-l-white.png" />
+    <Content Include="themes\images\icons-png\carat-r-black.png" />
+    <Content Include="themes\images\icons-png\carat-r-white.png" />
+    <Content Include="themes\images\icons-png\carat-u-black.png" />
+    <Content Include="themes\images\icons-png\carat-u-white.png" />
+    <Content Include="themes\images\icons-png\check-black.png" />
+    <Content Include="themes\images\icons-png\check-white.png" />
+    <Content Include="themes\images\icons-png\clock-black.png" />
+    <Content Include="themes\images\icons-png\clock-white.png" />
+    <Content Include="themes\images\icons-png\cloud-black.png" />
+    <Content Include="themes\images\icons-png\cloud-white.png" />
+    <Content Include="themes\images\icons-png\comment-black.png" />
+    <Content Include="themes\images\icons-png\comment-white.png" />
+    <Content Include="themes\images\icons-png\delete-black.png" />
+    <Content Include="themes\images\icons-png\delete-white.png" />
+    <Content Include="themes\images\icons-png\edit-black.png" />
+    <Content Include="themes\images\icons-png\edit-white.png" />
+    <Content Include="themes\images\icons-png\eye-black.png" />
+    <Content Include="themes\images\icons-png\eye-white.png" />
+    <Content Include="themes\images\icons-png\forbidden-black.png" />
+    <Content Include="themes\images\icons-png\forbidden-white.png" />
+    <Content Include="themes\images\icons-png\forward-black.png" />
+    <Content Include="themes\images\icons-png\forward-white.png" />
+    <Content Include="themes\images\icons-png\gear-black.png" />
+    <Content Include="themes\images\icons-png\gear-white.png" />
+    <Content Include="themes\images\icons-png\grid-black.png" />
+    <Content Include="themes\images\icons-png\grid-white.png" />
+    <Content Include="themes\images\icons-png\heart-black.png" />
+    <Content Include="themes\images\icons-png\heart-white.png" />
+    <Content Include="themes\images\icons-png\home-black.png" />
+    <Content Include="themes\images\icons-png\home-white.png" />
+    <Content Include="themes\images\icons-png\info-black.png" />
+    <Content Include="themes\images\icons-png\info-white.png" />
+    <Content Include="themes\images\icons-png\location-black.png" />
+    <Content Include="themes\images\icons-png\location-white.png" />
+    <Content Include="themes\images\icons-png\lock-black.png" />
+    <Content Include="themes\images\icons-png\lock-white.png" />
+    <Content Include="themes\images\icons-png\mail-black.png" />
+    <Content Include="themes\images\icons-png\mail-white.png" />
+    <Content Include="themes\images\icons-png\minus-black.png" />
+    <Content Include="themes\images\icons-png\minus-white.png" />
+    <Content Include="themes\images\icons-png\navigation-black.png" />
+    <Content Include="themes\images\icons-png\navigation-white.png" />
+    <Content Include="themes\images\icons-png\phone-black.png" />
+    <Content Include="themes\images\icons-png\phone-white.png" />
+    <Content Include="themes\images\icons-png\plus-black.png" />
+    <Content Include="themes\images\icons-png\plus-white.png" />
+    <Content Include="themes\images\icons-png\power-black.png" />
+    <Content Include="themes\images\icons-png\power-white.png" />
+    <Content Include="themes\images\icons-png\recycle-black.png" />
+    <Content Include="themes\images\icons-png\recycle-white.png" />
+    <Content Include="themes\images\icons-png\refresh-black.png" />
+    <Content Include="themes\images\icons-png\refresh-white.png" />
+    <Content Include="themes\images\icons-png\search-black.png" />
+    <Content Include="themes\images\icons-png\search-white.png" />
+    <Content Include="themes\images\icons-png\shop-black.png" />
+    <Content Include="themes\images\icons-png\shop-white.png" />
+    <Content Include="themes\images\icons-png\star-black.png" />
+    <Content Include="themes\images\icons-png\star-white.png" />
+    <Content Include="themes\images\icons-png\tag-black.png" />
+    <Content Include="themes\images\icons-png\tag-white.png" />
+    <Content Include="themes\images\icons-png\user-black.png" />
+    <Content Include="themes\images\icons-png\user-white.png" />
+    <Content Include="themes\images\icons-png\video-black.png" />
+    <Content Include="themes\images\icons-png\video-white.png" />
+    <Content Include="themes\jquery.mobile.icons.min.css" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TypeScriptToolsVersion>1.0</TypeScriptToolsVersion>
+    <DefaultReferenceGroup>Implicit (Multi-Device Apps)</DefaultReferenceGroup>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptCompileOnSaveEnabled>false</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptCompileOnSaveEnabled>false</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Distribution'">
+    <TypeScriptCompileOnSaveEnabled>false</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CordovaTools\vs-mda-targets\Microsoft.MDA.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\CordovaTools\vs-mda-targets\Microsoft.TypeScript.MDA.targets" />
+  <PropertyGroup>
+    <ProjectUISubcaption>Tools for Apache Cordova</ProjectUISubcaption>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetPlatformIdentifier>MDD</TargetPlatformIdentifier>
+  </PropertyGroup>
+  <Target Name="EnsureBuildPrerequisites">
+    <!-- These errors will trigger if building from inside Visual Studio and requirements could not be determined -->
+    <Error Condition="$(MDAPropertiesEvaluated) == 'true' And $(NodeJsDir) == ''" Text="Path to NodeJs could not be determined. Please check that NodeJs has been installed." />
+    <Error Condition="$(MDAPropertiesEvaluated) == 'true' And $(MDAVsixDir) == ''" Text="Path to the Visual Studio Extension for Tools for Apache Cordova could not be determined. Please check that the extension has been installed." />
+    <!-- These errors will trigger if building from outside Visual Studio (e.g. command line) and environment variables have not been set -->
+    <Error Condition="$(MDAPropertiesEvaluated) == '' And $(NodeJsDir) == ''" Text="Path to NodeJs has not been specified. Please check that NodeJs has been installed and set the NodeJsDir environment variable before building." />
+    <Error Condition="$(MDAPropertiesEvaluated) == '' And $(MDAVsixDir) == ''" Text="Path to Visual Studio Extension for Tools for Apache Cordova has not been specified. Please install it and set the MDAVsixDir environment variable before building." />
+    <!-- Sanity check that things exist in the specified places. These are more likely to fail if building outside Visual Studio and the required environment variables have not been set, or set incorrectly. -->
+    <Error Condition="!Exists('$(NodeJsDir)') Or !Exists('$(NodeJsDir)\node.exe')" Text="The specified NodeJs directory $(NodeJsDir) either does not exist, or does not contain node.exe. Please check that NodeJs has been installed, and set the NodeJsDir variable to the correct directory." />
+    <Error Condition="!Exists('$(MDAVsixDir)') Or !Exists('$(MDAVsixDir)\packages\vs-mda')" Text="The specified directory to the Visual Studio extension $(MDAVsixDir)\node.exe either does not exist, or does not contain a packages\vs-mda sub-directory. Please check that the extension directory exists and set the MDAVsixDir variable to the correct directory." />
+    <!-- Installs (if necessary) the supporting Nodejs module -->
+    <Exec Command="&quot;$(MDAVsixDir)&quot;\packages\vs-mda\install &quot;$(NodeJsDir)&quot; &quot;$(MDAVsixDir)&quot;\packages\vs-mda" />
+  </Target>
+</Project>

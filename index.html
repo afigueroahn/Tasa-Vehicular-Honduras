@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tasa Vehicular Honduras</title>
+    <!-- TasaVehicularHonduras references -->
+    <link href="css/index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="themes/Default.min.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
+    <script src="scripts/jquery-1.11.1.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+    <div data-role="page" id="Home">
+        <div data-role="header" data-position="fixed" data-id="headerApp">
+            <h1>Tasa Vehicular Honduras</h1>
+            <a href="#Info" data-role="button" data-icon="info" data-iconpos="notext" data-rel="dialog"></a>
+        </div>
+        <div data-role="content">
+            Por favor ingrese su numero de placa.
+            <input id="txtPlaca" type="search" placeholder="Ejemplo. PAB1000" onkeyup="$('#txtPlaca').val($('#txtPlaca').val().toUpperCase());" required />
+            <input id="Consult" type="button" value="Consultar" />
+            <div class="Result" style="text-align: center;"></div>
+        </div>
+    </div>
+
+    <div data-role="page" id="Info">
+        <div data-role="header">
+            <h1>Informacion</h1>
+        </div>
+        <div data-role="content" style="text-align:center">
+            Consulta de la tasa vehicular impuesta por la DEI (Direccion Ejecutiva de Ingresos) en Honduras.<br /><br />
+            Desarrollada por<br />
+            <h4>NetDev Software</h4><br />
+            <a href="#" data-role="button" data-rel="back">Aceptar</a>
+        </div>
+    </div>
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>
